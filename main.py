@@ -42,7 +42,7 @@ def get_num_char(text):
                 char_count[char] = 1
     return char_count
 
-# Convert dictionary into a list of dictionaries
+# Convert dictionary into a list of dictionaries, excludes not alphabet characters
 def conv_dict(num_char):
     char_list = []
     char = "char"
